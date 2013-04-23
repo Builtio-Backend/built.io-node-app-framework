@@ -1,0 +1,26 @@
+{
+    "name": "raw_app_framework",
+    "version": "1.0.1",
+    "description":"Node Application Framework",
+    "private": true,
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": {
+        "name": "Raw Engineering [Pradeep Mishra]",
+        "url": "http://www.raweng.com/"
+    },
+    "dependencies": {
+        "express": "3.1.1",
+        "jade": "0.28.1",
+        "passport":"0.1.16",
+        "restler":"2.0.1",
+        "ejs":"0.8.3"  ,
+        "forever-monitor":"1.1.0",
+        "http-proxy":"0.10.1"
+    },
+    "engines": {
+        "node": "0.8.x",
+        "npm":  "1.1.x"
+    }
+}

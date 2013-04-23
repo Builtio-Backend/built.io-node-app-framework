@@ -1,0 +1,14 @@
+RAW Node Application Framework Started On Port: [31m4000[0m
+development
+{ two: 'god',
+  dev: { sun: 'time', moon: 'wine', what: { i: [Object] } } }
+GET --> /blog --> 200
+RAW Node Application Framework Started On Port: [31m4000[0m
+RAW Node Application Framework Started On Port: [31m4000[0m
+development
+{ two: 'god',
+  dev: { sun: 'time', moon: 'wine', what: { i: [Object] } } }
+GET --> /blog --> 200
+GET --> /blog/new --> 200
+GET --> /blog/pradeep --> 200
+GET --> /blog/pradeep/edit --> 200

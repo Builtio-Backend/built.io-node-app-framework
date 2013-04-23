@@ -1,0 +1,17 @@
+{
+    "name" : "demo" ,
+    "description" : "This is demo app" ,
+    "version":"1.0.0",
+    "host":{
+        "development":"*",
+        "production":"*"
+    },
+	"environment":"development",
+    "dependencies": {},
+    "useCPUCore":false,
+    "gzip":true,
+	"session":false,
+	"bodyParser":true,
+    "userLog":true,
+    "port":"4000"
+}

@@ -1,0 +1,10 @@
+{
+    "post":[
+        ["/","main.create"]
+    ],
+    "resource":[
+        ["/blog","main"]
+    ]
+}
+
+
