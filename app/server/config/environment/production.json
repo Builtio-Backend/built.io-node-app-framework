@@ -1,7 +1,4 @@
 {
-	"two":"god",
-    "prod":{
-        "sun":"time",
-        "moon":"wine"
-    }
+"key":"value",
+"nthKey":"nthValue"
 }

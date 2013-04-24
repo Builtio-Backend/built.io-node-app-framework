@@ -1,11 +1,3 @@
-[
-    {
-        "route":"/rest",
-        "host":"irctc.co.in",
-        "path":"beta_htmls",
-        "port":"443",
-        "before":"main.before",
-        "after":"main.after",
-        "error":"main.error"
-    }
-]
+{
+
+}

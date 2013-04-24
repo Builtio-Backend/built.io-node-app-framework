@@ -1,0 +1,123 @@
+
+E:\github\Built-Application-FrameWork\lib\config.js:12
+        try { data = JSON.parse(data) } catch (e) {throw envir +".json configu
+                                                         ^
+ReferenceError: envir is not defined
+    at Object.exports.createConfig (E:\github\Built-Application-FrameWork\lib\config.js:12:58)
+    at Object.<anonymous> (E:\github\Built-Application-FrameWork\lib\init.js:10:32)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.runMain (module.js:492:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+
+E:\github\Built-Application-FrameWork\lib\config.js:12
+        try { data = JSON.parse(data) } catch (e) {throw envir +".json configu
+                                                         ^
+ReferenceError: envir is not defined
+    at Object.exports.createConfig (E:\github\Built-Application-FrameWork\lib\config.js:12:58)
+    at Object.<anonymous> (E:\github\Built-Application-FrameWork\lib\init.js:10:32)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.runMain (module.js:492:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+
+E:\github\Built-Application-FrameWork\lib\config.js:12
+        try { data = JSON.parse(data) } catch (e) {throw envir +".json configu
+                                                         ^
+ReferenceError: envir is not defined
+    at Object.exports.createConfig (E:\github\Built-Application-FrameWork\lib\config.js:12:58)
+    at Object.<anonymous> (E:\github\Built-Application-FrameWork\lib\init.js:10:32)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.runMain (module.js:492:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+
+E:\github\Built-Application-FrameWork\lib\config.js:12
+        try { data = JSON.parse(data) } catch (e) {throw envir +".json configu
+                                                         ^
+ReferenceError: envir is not defined
+    at Object.exports.createConfig (E:\github\Built-Application-FrameWork\lib\config.js:12:58)
+    at Object.<anonymous> (E:\github\Built-Application-FrameWork\lib\init.js:10:32)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.runMain (module.js:492:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+
+E:\github\Built-Application-FrameWork\lib\config.js:12
+        try { data = JSON.parse(data) } catch (e) {throw envir +".json configu
+                                                         ^
+ReferenceError: envir is not defined
+    at Object.exports.createConfig (E:\github\Built-Application-FrameWork\lib\config.js:12:58)
+    at Object.<anonymous> (E:\github\Built-Application-FrameWork\lib\init.js:10:32)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.runMain (module.js:492:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+
+E:\github\Built-Application-FrameWork\lib\config.js:12
+        try { data = JSON.parse(data) } catch (e) {throw envir +".json configu
+                                                         ^
+ReferenceError: envir is not defined
+    at Object.exports.createConfig (E:\github\Built-Application-FrameWork\lib\config.js:12:58)
+    at Object.<anonymous> (E:\github\Built-Application-FrameWork\lib\init.js:10:32)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.runMain (module.js:492:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+
+E:\github\Built-Application-FrameWork\lib\proxy.js:7
+    try { proxiesJSON = JSON.parse(proxiesJSON) } catch (e) { throw new Error(
+                                                                    ^
+Error: SyntaxError: Unexpected end of input
+    at Object.exports.createProxy (E:\github\Built-Application-FrameWork\lib\proxy.js:7:73)
+    at createProxy (E:\github\Built-Application-FrameWork\lib\setup.js:32:27)
+    at Object.exports.setupApp (E:\github\Built-Application-FrameWork\lib\setup.js:14:5)
+    at Object.<anonymous> (E:\github\Built-Application-FrameWork\lib\init.js:13:31)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.runMain (module.js:492:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+
+E:\github\Built-Application-FrameWork\lib\proxy.js:7
+    try { proxiesJSON = JSON.parse(proxiesJSON) } catch (e) { throw new Error(
+                                                                    ^
+Error: SyntaxError: Unexpected end of input
+    at Object.exports.createProxy (E:\github\Built-Application-FrameWork\lib\proxy.js:7:73)
+    at createProxy (E:\github\Built-Application-FrameWork\lib\setup.js:32:27)
+    at Object.exports.setupApp (E:\github\Built-Application-FrameWork\lib\setup.js:14:5)
+    at Object.<anonymous> (E:\github\Built-Application-FrameWork\lib\init.js:13:31)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.runMain (module.js:492:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+
+E:\github\Built-Application-FrameWork\lib\proxy.js:7
+    try { proxiesJSON = JSON.parse(proxiesJSON) } catch (e) { throw new Error(
+                                                                    ^
+Error: SyntaxError: Unexpected end of input
+    at Object.exports.createProxy (E:\github\Built-Application-FrameWork\lib\proxy.js:7:73)
+    at createProxy (E:\github\Built-Application-FrameWork\lib\setup.js:32:27)
+    at Object.exports.setupApp (E:\github\Built-Application-FrameWork\lib\setup.js:14:5)
+    at Object.<anonymous> (E:\github\Built-Application-FrameWork\lib\init.js:13:31)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.runMain (module.js:492:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)

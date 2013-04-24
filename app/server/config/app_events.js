@@ -1,25 +1,22 @@
-var ON={
+var Events={
 	init:function(app){
-		//console.log(app.get("env"));
-		//App.instance.get("env");
+		//Eg: console.log('This code block will be invoked at the start of the application');
 	},
-	notFound:function(req,res){
-		console.log('wrong-turn-man');
-		res.send(404,'no path');
+	notFound:function(req, res){
+		//Eg: res.send(404,'no path');
 	},
 	forbidden:function(req,res){
-		console.log('no-access');
-		res.send(403,'forbidden');
+		//Eg: res.send(403,'forbidden');
 	},
 	development:function(app){
-		//console.log('running on dev mode');
+		//Eg: console.log('This code block will be invoked in development mode. This application will be invoked at the start of application only ');
 	},
 	production:function(app){
-		//console.log('running on prod mode');
+		//Eg: console.log('This code block will be invoked in production mode. This application will be invoked at the start of application only');
 	},
 	error:function(err){
-		//console.log('app face uncought error');
+		//Eg: console.log('This code block will be invoked when any uncought error occurs');
 	}
 }
 
-module.exports=ON;
+module.exports=Events;
