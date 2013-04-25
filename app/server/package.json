@@ -2,12 +2,13 @@
     "name" : "demo" ,
     "description" : "This is demo app" ,
     "version":"1.0.0",
-	"environment":"development",
+    "environment":"development",
     "dependencies": {},
     "useCPUCore":false,
     "gzip":true,
-	"session":false,
-	"bodyParser":true,
+    "session":false,
+    "bodyParser":true,
     "userLog":true,
-    "port":"4000"
+    "forever":false,
+    "port":"8080"
 }
