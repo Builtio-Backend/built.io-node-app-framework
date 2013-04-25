@@ -40,7 +40,7 @@ if ( utils.isFileSync(pathLib.join(lConfig.serverPath,lConfig.packageFile))) {
         throw new Error("Application version required in package.json");
         process.exit(-1);
     }
-    if(typeof packageJSON['forever']==="undefined" || packageJSON['forever']==true){
+    if(typeof packageJSON['foreverMonitor']==="undefined" || packageJSON['foreverMonitor']==true){
         var option={
             max: 3,
             silent: false ,

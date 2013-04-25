@@ -9,6 +9,6 @@
     "session":false,
     "bodyParser":true,
     "userLog":true,
-    "forever":false,
+    "foreverMonitor":false,
     "port":"8080"
 }
