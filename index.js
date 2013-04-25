@@ -40,27 +40,32 @@ if ( utils.isFileSync(pathLib.join(lConfig.serverPath,lConfig.packageFile))) {
         throw new Error("Application version required in package.json");
         process.exit(-1);
     }
-    var option={
-        max: 3,
-        silent: false ,
-        cwd:__dirname ,
-        append:true,
-        env: {'configs':config}
+    if(typeof packageJSON['forever']==="undefined" || packageJSON['forever']==true){
+        var option={
+            max: 3,
+            silent: false ,
+            cwd:__dirname ,
+            append:true,
+            env: {'configs':config}
+        }
+        if(packageJSON['userLog']==true){
+            option.outFile=pathLib.join(lConfig.logPath,'user_log-'+stamp+'.LOG');
+        }
+        if(typeof packageJSON['errorLog']==="undefined" || packageJSON['errorLog']==true){
+            option.errFile=pathLib.join(lConfig.logPath,'error_log-'+stamp +'.LOG');
+        }
+        var child = new (forever.Monitor)(pathLib.join(__dirname,'lib','init.js'),option );
+        child.on('exit', function (e) {
+            console.log('daemon has exited after 3 restarts',e);
+        });
+        child.on('error', function (e) {
+            console.log('daemon error, server cannot be up ',e);
+        });
+        child.start();
+    }else{
+        process.env.configs=config;
+        require(pathLib.join(__dirname,'lib','init.js'));
     }
-    if(packageJSON['userLog']==true){
-        option.outFile=pathLib.join(lConfig.logPath,'user_log-'+stamp+'.LOG');
-    }
-    if(typeof packageJSON['errorLog']==="undefined" || packageJSON['errorLog']==true){
-        option.errFile=pathLib.join(lConfig.logPath,'error_log-'+stamp +'.LOG');
-    }
-    var child = new (forever.Monitor)(pathLib.join(__dirname,'lib','init.js'),option );
-    child.on('exit', function (e) {
-        console.log('daemon has exited after 3 restarts',e);
-    });
-    child.on('error', function (e) {
-        console.log('daemon error, server cannot be up ',e);
-    });
-    child.start();
 
 }else{
     throw new Error( "package.json required in app directory");
