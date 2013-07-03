@@ -17,6 +17,10 @@
     "userLog":true,                      //Turn user log on/off (optional)
     "port":"4000"                        //Port number on which application should run (required)
     "foreverMonitor": false              //Whether to run server in forever or not. To debug an application, please make sure to turn forever monitor off
+    "https":{
+	"key":"absolute path to private key", 
+	"cert":"absolute path to certificate"
+    }					//For enabling https in site (optional)
 }
 
 
